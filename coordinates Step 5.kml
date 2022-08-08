@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml
+	xmlns="http://earth.google.com/kml/2.0">
+	<Document>
+		<Style id="z1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Folder>
+			<name>Home</name>
+			<Placemark>
+				<name>Home</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.27931663614581,34.02798938580274</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Libraries</name>
+			<Placemark>
+				<name>Leavey Library</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.28308365294055,34.021573375087094</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Doheny Library</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.2841310555611,34.02035511458065</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Science and Engineering Library</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.2888597900548,34.01943807302115</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Helen Topping Architecture Library</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.28839040347471,34.019320246355285</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hoose library of Philosophy</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.28657723018374,34.018662192545364</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Law Library</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.28490353175697,34.01890340542679</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Waterworks</name>
+			<Placemark>
+				<name>Prentis Memorial Fountain</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.28446633168804,34.02056742219499</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Patsy and Forrest Shumway Fountain</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.28525892445194,34.02028397475113</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Leavey Library Pool</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.28302464434366,34.02145555139063</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Generations Fountain</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.28319362351034,34.02220139488873</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Queens Courtyard</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.2856813723721,34.02228142540159</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Epstein Plaza fountain</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.28893318220945,34.02045714526519</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<Placemark>
+			<name>The polygon for convex hull</name>
+			<styleUrl>#Polyborder</styleUrl>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							
+							
+							<altitudeMode>clampedToGround</altitudeMode>
+							<coordinates>
+							-118.28657723018374,34.018662192545364,0
+							-118.2888597900548,34.01943807302115,0
+							-118.28893318220945,34.02045714526519,0
+							-118.27931663614581,34.02798938580274,0
+							-118.28302464434366,34.02145555139063,0
+							-118.28490353175697,34.01890340542679,0
+							-118.28657723018374,34.018662192545364,0
+						</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+		                  </Placemark>
+<Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-118.27931663614581,34.02798938580274  -118.28319362351034,34.02220139488873</coordinates>
+      </LineString>
+
+<Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+   <width>5</width>
+  </LineStyle> 
+ </Style>
+    </Placemark>
+	</Folder>
+	</Document>
+</kml>
